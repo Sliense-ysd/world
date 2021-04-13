@@ -1,0 +1,10 @@
+package жиди;
+
+public class car {
+
+	public car()
+	{
+		
+	}
+
+}

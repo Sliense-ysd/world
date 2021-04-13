@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">test_login</string>
+    <string name="text1">设备报修表</string>
+
+    <string name="tv1">学生姓名</string>
+    <string name="tv2">学生学号</string>
+    <string name="tv3">座位号</string>
+    <string name="tv4">待维修设备</string>
+    <string name="tv5">损坏原因</string>
+    <string name="button1">提交</string>
+</resources>

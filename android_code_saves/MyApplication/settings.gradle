@@ -1,0 +1,12 @@
+include ':laboratory_time'
+include ':laboratory_calendar'
+include ':date_time'
+include ':test_login'
+include ':z_relative_layout'
+include ':z_table_layout'
+include ':z_linear_layout'
+include ':linear_layout'
+include ':zhihui_ketang'
+include ':ui_1'
+include ':app'
+rootProject.name = "My Application"

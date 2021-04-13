@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;多线程实现.java&apos; to &apos;java应用/src/多线程&apos;&#x0D;&#x0A;- Original project: &apos;线程&apos;&#x0D;&#x0A;- Destination element: &apos;java应用/src/多线程&apos;&#x0D;&#x0A;- Original element: &apos;多线程实现.多线程实现.java&apos;" description="Copy compilation unit" destination="=java应用/src&lt;多线程" element1="/src&lt;多线程实现{多线程实现.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1615261782160" units="1" version="1.0"/>
+</session>

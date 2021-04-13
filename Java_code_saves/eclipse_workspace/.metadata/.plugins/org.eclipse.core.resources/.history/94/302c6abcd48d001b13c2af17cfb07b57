@@ -1,0 +1,11 @@
+package 重载;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		car c =new car();
+		driver d =new driver(c);//构造函数可以使用引用数据类型+基本数据类型作为形参/实参
+		
+	}
+
+}

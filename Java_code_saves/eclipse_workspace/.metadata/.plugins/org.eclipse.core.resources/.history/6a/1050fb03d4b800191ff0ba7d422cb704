@@ -1,0 +1,84 @@
+package lei;
+
+public class 多态 extends duotaibaba
+{
+
+	
+	public void violence()
+	{
+	System.out.println("我是儿子，我可以暴力");
+	}
+	
+	
+	public static void main(String[] args) //定义子类对象dt1，刚开始有两个方法，进行第一次强制类转型后得到dt2，dt2指向dt1的内存，遮盖住方法“暴力”，即dt1 和dt2
+											//都指向同一块内存同时只能调用方法约炮，方法暴力被遮住，进行第二次转型后父类重新变成子类，原来被遮住的方法可以调用
+	{
+		多态 dt1=new 多态();
+		dt1.yp();
+		dt1.violence();
+		duotaibaba dt2=(duotaibaba) dt1;
+		dt2.yp();
+		
+		多态 dt3=(多态) dt2;
+		dt3.yp();
+		dt3.violence();
+		
+		nezha[] a=new nezha[5];//定义一个nezha为类的数组 数组名是a  长度为5
+		a[0]=new nezha();//定义数组a的0号元素是nezha1的对象,此处相当于进行一个强制类转型，把属于nezha类的对象a[0]转化成nezha1类的对象,即a[0]是nezha1的对象
+		//a[0]=new nezha1;
+		a[0].wuli();//调用对象a【0】的魔法函数
+		
+		
+	}
+
+}
+
+class duotaibaba
+{
+	public void yp()
+	{
+		System.out.println("我是爸爸我要约炮");
+	}
+
+}
+
+
+ class  nezha
+{
+	public void wuli()
+	{
+		System.out.println("我是哪吒，物理攻击+0");
+	}
+
+	
+	
+}
+
+class nezha1 extends nezha
+{
+	public void wuli()
+	{
+		System.out.println("我是哪吒1，物理攻击+1");
+	}
+	public void mofa()
+	{
+		System.out.println("我是哪吒1，魔法攻击+1");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

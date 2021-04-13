@@ -1,0 +1,44 @@
+package vvv;
+
+public class Main 
+{
+
+	public static void main(String[] args) {
+		
+		int i;
+		Employee jia=new Employee("小王",1);
+		System.out.println(jia.name);
+		System.out.println(jia.num);
+		
+		
+		System.out.println(jia.count_sum(1000.0,0.5);
+		
+		// TODO 自动生成的方法存根
+
+	}
+
+}
+
+class Employee{
+	
+	String name;
+	float base_money;
+	float increse;
+	int num;
+	
+	public Employee(String name,int num)
+	{
+		this.name=name;
+		this.num=num;
+		
+	}
+	double count_sum( double d,double e)
+	{
+		
+		return  d*(1+e);
+	}
+
+	
+	
+	
+}

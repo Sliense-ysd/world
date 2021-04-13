@@ -1,0 +1,26 @@
+package haoji;
+
+public class haoji 
+{
+
+	int as=1,b=2;
+	
+	
+	
+	
+	public static void main(String[] args) 
+	{
+		
+for(;as<10;as++)
+{
+	System.out.println("a")
+}
+		System.out.println("I will be stronger");
+		System.out.println("ahwdawd");
+		System.out.println("as=%d");
+		as=as++;
+		b=b-1;
+		System.out.println("ahwdawd");
+	}
+
+}

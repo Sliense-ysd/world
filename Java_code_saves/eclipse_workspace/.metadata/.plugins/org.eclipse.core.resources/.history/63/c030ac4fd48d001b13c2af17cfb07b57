@@ -1,0 +1,8 @@
+package 重载;
+
+public class 片段 {
+	public static void main(String[] args) {
+		用于搭配构造方法将实参的值赋给对象指针指向的成员属性
+	}
+}
+

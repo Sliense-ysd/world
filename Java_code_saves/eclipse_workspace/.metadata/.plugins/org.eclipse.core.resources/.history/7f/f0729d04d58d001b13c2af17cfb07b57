@@ -1,0 +1,9 @@
+package жиди;
+
+public class driver {
+	public driver(car c)
+	{
+		System.out.println("driver");
+	}
+}
+

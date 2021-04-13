@@ -1,0 +1,27 @@
+package 重载;
+
+public class base_type {
+	
+	int num;
+	int tel;
+	String name;
+	String say;
+	
+	//问题：当一个类有两个int，我需要在new对象时通过构造方法来直接赋成员属性，应该怎么做？？
+	//第一种
+	public base_type(int number)//构造方法的参数是一个int型
+	{
+		if(number>10000)       //由于该类有多个int成员属性，构造方法只能有一个单独int型形参，故这里做一个判断
+			this.tel=number;
+		else
+			this.num=number;
+		
+	}
+	
+	public base_type(int num,int  tel)//构造方法的参数是一个int型
+	{
+		this.tel=tel;
+		
+	}
+}
+

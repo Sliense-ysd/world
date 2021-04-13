@@ -1,0 +1,53 @@
+package vvv;
+
+public class Main 
+{
+
+	public static void main(String[] args) {
+		
+		int i;
+		Employee jia=new Employee("ะกอ๕",1);
+		System.out.println(jia.name);
+		System.out.println(jia.num);
+		
+		
+		System.out.println(jia.count_sum(1020.0,2.0));
+		System.out.println(jia.getBase_money());
+	
+	
+	}
+
+}
+
+class Employee{
+	
+	String name;
+	private double base_money;
+	double increse;
+	int num;
+	
+	public Employee(String name,int num)
+	{
+		this.name=name;
+		this.num=num;
+		
+	}
+	double count_sum( double base_money,double increse)
+	{
+		
+		return  base_money*(1+increse);
+	}
+
+	
+	public double getBase_money()
+	{
+		return base_money;
+	}
+	
+	public void setBase_money(double base_money) {
+		this.base_money = base_money;
+	}
+	
+	
+	
+}

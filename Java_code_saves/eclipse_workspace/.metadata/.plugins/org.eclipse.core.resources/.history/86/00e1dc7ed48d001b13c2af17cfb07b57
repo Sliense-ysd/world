@@ -1,0 +1,9 @@
+package жиди;
+
+public class driver {
+	public driver()
+	{
+		System.out.println("driver");
+	}
+}
+

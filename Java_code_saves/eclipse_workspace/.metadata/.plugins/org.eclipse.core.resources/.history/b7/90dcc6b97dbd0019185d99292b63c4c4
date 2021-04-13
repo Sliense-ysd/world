@@ -1,0 +1,28 @@
+package lei;
+
+public class constant 
+{
+
+	
+
+	int a=1;
+	
+	public static void main(String[] args) 
+	{
+	lei0 dx=new lei0();
+	dx.output();
+
+	}
+
+}
+
+class lei0
+{
+	static int a=1;
+	
+	public void output()
+	{
+	System.out.println(a);
+	}
+	
+}

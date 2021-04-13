@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">良师益邮</string>
+    <string name="title1">实验室教学管家</string>
+    <string name="act_tool">设备报修</string>
+    <string name="act_paper">考试管理</string>
+    <string name="act_house">实验室预约</string>
+    <string name="act_identity">考勤登记</string>
+
+
+    <!-- 实验室预约 -->
+
+
+    <string name="house_bu1">提交申请</string>
+
+
+    <!--下一页 设备报修-->
+
+
+    <string name="tool_tv1">学生姓名</string>
+    <string name="tool_tv2">学生学号</string>
+    <string name="tool_tv3">座位号</string>
+    <string name="tool_tv4">待维修设备</string>
+    <string name="tool_tv5">损坏原因</string>
+    <string name="tool_button1">提交</string>
+
+    <!--下一页 考勤登记-->
+
+
+    <string name="identity_tv1">姓名</string>
+    <string name="identity_tv2">学号</string>
+    <string name="identity_tv3">签到</string>
+    <string name="identity_tv4">课程</string>
+    <string name="identity_tv5">损坏原因</string>
+    <string name="identity_button1">提交</string>
+    <string name="identity_name1">李明</string>
+    <string name="identity_name2">王凯</string>
+
+    <string name="identity_num1">B18020212</string>
+    <string name="identity_num2">B18280211</string>
+
+    <string name="identity_qiandao1">已到</string>
+
+
+
+
+
+</resources>

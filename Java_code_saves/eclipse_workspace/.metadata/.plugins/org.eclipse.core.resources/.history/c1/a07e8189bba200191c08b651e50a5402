@@ -1,0 +1,17 @@
+package haoji;
+
+public class haoji {
+
+	public static void main(String[] args) 
+	{
+		
+		int as=1,b=2;
+		System.out.println("I will be stronger");
+		System.out.println("ahwdawd");
+		System.out.println("as=%d");
+		as=as++;
+		b=b-1;
+		System.out.println("ahwdawd");
+	}
+
+}

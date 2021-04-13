@@ -1,0 +1,42 @@
+package a123;
+
+
+
+public class solution {
+
+
+	public static void main(String[] args)
+	{
+		vehical car=new vehical(100);
+		car.heavy();
+		
+	}
+
+
+
+
+	
+}
+
+class vehical {
+	
+	int weight;
+	vehical(int num)
+	{
+		this.weight=num;
+	}
+	
+	void run()
+	{
+		System.out.println("it can run ");
+	}
+	void heavy()
+	{
+		
+		System.out.println("weight=="+weight);
+	}
+	
+	
+	
+}
+

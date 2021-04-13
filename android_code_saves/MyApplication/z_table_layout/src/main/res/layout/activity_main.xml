@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/table_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:stretchColumns="0,1"
+    tools:context=".MainActivity">
+
+    <!--给表格布局起名字:id-->
+<!--    表格第一行-->
+    <!--表格第二行-->
+
+    <TableRow
+        android:id="@+id/tablerow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--加了textview就对正了,从中心开始，为什么？-->
+        <TextView />
+
+        <Button
+            android:id="@+id/row1_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备控制输入"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/row1_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp" />
+
+        <TextView />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView/>
+        <Button
+            android:id="@+id/row1_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备控制输入"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/row1_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"/>
+        <TextView/>
+    </TableRow>
+<!--    表格第三行-->
+    <TableRow android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/fangwu"
+            android:src="@mipmap/fangwu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <ImageButton android:src="@mipmap/gongju" />
+
+        <ImageView
+            android:src="@mipmap/jiangbei"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/fangwu" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/riji" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>

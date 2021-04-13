@@ -1,0 +1,39 @@
+package vvv;
+
+public class Main 
+{
+
+	public static void main(String[] args) {
+		
+		int i;
+		Employee jia=new Employee()
+		
+		// TODO 自动生成的方法存根
+
+	}
+
+}
+
+class Employee{
+	
+	String name;
+	float base_money;
+	float increse;
+	int num;
+	
+	public Employee(String name,int num)
+	{
+		this.name=name;
+		this.num=num;
+		
+	}
+	float count_sum( float base_money,float increse)
+	{
+		
+		return  base_money*(1+increse);
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextClock
+        android:layout_width="264dp"
+        android:layout_height="206dp"
+        android:layout_gravity="center"
+        android:format12Hour="yyyy/MM/dd HH:mm:ss"
+        android:format24Hour="yyyy/MM/dd HH:mm:ss"
+
+        android:padding="8dp" />
+
+
+</LinearLayout>

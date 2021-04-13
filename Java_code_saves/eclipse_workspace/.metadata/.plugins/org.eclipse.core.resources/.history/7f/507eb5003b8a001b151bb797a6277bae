@@ -1,0 +1,28 @@
+package a123;
+
+
+
+public class solution6 {
+
+
+	public static void main(String[] args)
+	{
+	}
+
+
+
+	public int[] twoSum(int[] nums, int target) {
+		for(int i=0;i<arr.length(nums);i++){
+			int x=nums[i];
+			for(int j=1;j<arr.length(nums);j++){
+				int y=nums[j];
+				int result=x+y;
+
+				if(result==target)
+					return x;
+			}
+		}
+
+	}
+}
+
